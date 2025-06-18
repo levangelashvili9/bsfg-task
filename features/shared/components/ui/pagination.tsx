@@ -7,7 +7,7 @@ import {
   DotsHorizontalIcon,
 } from "@radix-ui/react-icons";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/features/shared/lib/utils";
 
 import {
   ButtonProps,
