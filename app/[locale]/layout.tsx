@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "../globals.css";
-import { roboto } from "@/app/fonts";
+import { poppins } from "@/app/fonts";
 
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
@@ -33,7 +33,7 @@ export default async function LayoutWrapper({
 
   return (
     <html lang={locale}>
-      <body className={roboto.className}>
+      <body className={poppins.className}>
         <QueryProvider>
           <NextIntlClientProvider messages={messages}>
             <NuqsAdapter>{children}</NuqsAdapter>

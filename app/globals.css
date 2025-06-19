@@ -4,6 +4,12 @@
 
 @layer base {
   body {
-    @apply bg-gray-100 text-neutral-900;
+    @apply bg-[#1C2E3D] text-white;
+  }
+}
+
+@layer utilities {
+  .root-container {
+    @apply px-[10px] 1200:mx-auto 1200:w-[1200px] 1200:px-0;
   }
 }

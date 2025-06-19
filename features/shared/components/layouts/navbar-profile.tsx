@@ -1,0 +1,9 @@
+import icons from "@/features/shared/config/icons.config";
+
+export const NavbarProfile = () => {
+  return (
+    <div className="flex size-10 cursor-pointer items-center justify-center rounded-[5px] bg-[#253241]">
+      <icons.IconUser />
+    </div>
+  );
+};
